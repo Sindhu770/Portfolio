@@ -1,0 +1,172 @@
+body{
+    background-image: url(white.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-right: 40px;
+}
+.navbar a:hover{
+    color:  rgb(90, 32, 32);
+    font-weight: bolder;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3px;
+    
+    
+}
+.contents button{
+    
+    margin-top: 40px;
+    background-color: rgba(90, 32, 32, 0.758);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    
+}
+.Education{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.Edu{
+    
+    border-radius: 30px;
+    text-align: center;
+    width: 30%;
+    height: 240px;
+    background-color: rgba(90, 32, 32, 0.025);
+    animation: slideFromRight 2s ease-out forwards;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.skill{
+    
+     margin-top: 100px;  
+     border-radius: 30px;
+     width: 30%; 
+     height: 240px;
+     background-color: rgba(90, 32, 32, 0.025);
+     animation: slideFromRight 2s ease-out forwards;
+     animation-delay: 2.6s;
+     animation-fill-mode: both;
+}
+@keyframes slideFromRight{
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.container{
+    display: flex;
+}
+.image-container1{
+    margin-top: 70px;
+    background-color:rgba(90, 32, 32, 0.758) ;
+    width: 500px;
+    margin-left: 160px;
+    padding: 20px;
+}
+.image-container1 img{
+    width: 500px;
+   
+} 
+.image-container2{
+    margin-top: 70px;
+    background-color:rgba(90, 32, 32, 0.758) ;
+    width: 500px;
+    margin-left: 70px;
+    padding: 20px;
+    
+}
+.image-container2 img{
+    width: 500px;
+}
+.contents img{
+    width: 400px;
+    transform: rotate(-1deg);
+    position: absolute;
+    top: 140px;
+    margin-left: 550px;
+}
+.connect-bg{
+    width: 35%;
+    margin-left: 470px;
+    background-color: rgba(90, 32, 32, 0.049);
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: 2px solid rgba(90, 32, 32, 0.758);
+}
+.user-form{
+    position: relative;
+    text-align: center;
+
+    
+}
+.user-form input{
+    display: block;
+    margin-top: 35px;
+    margin-left: 75px;
+    padding: 13px;
+    width: 65%;
+    border-radius: 20px;
+}
+.user-form ::placeholder{
+    text-align: center;
+}
+.user-form button{
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color:  rgba(90, 32, 32, 0.758);
+    border-radius: 20px;
+    color: white;
+
+    
+}
+.footer{
+    background-color: rgba(90, 32, 32, 0.758) ;
+    width: 90%;
+    margin-top: 100px;
+    color: white;
+    height: 100px;
+    border-radius: 30px;
+    margin-left: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer a{
+   text-decoration: none;
+   color: white;
+   margin-top: 40px;
+   display: flex;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+   
+}
+.footer li{
+    display: inline;
+
+}
+.footer h4{
+    margin-left: 20px;
+    margin-top: 40px;
+}
